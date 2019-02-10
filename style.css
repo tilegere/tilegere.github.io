@@ -1,0 +1,18 @@
+body{
+    font-family: 'Arial', sans-serif;
+    background-color: #e6f2ff;
+    background: linear-gradient(90deg, #e6f2ff, #b3d9ff);
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+#content h3{
+    text-align: center;
+    margin: 10px 20px;
+}
