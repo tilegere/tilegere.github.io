@@ -4,12 +4,28 @@ body{
     background: linear-gradient(90deg, #e6f2ff, #b3d9ff);
 }
 
-h1{
-    text-align: center;
+#header{
+    max-width: 640px;
+    background-image: url(img/BlueButterfly640.jpg);
+    background-repeat: no-repeat;
+    min-height: 360px;
+    margin: 10px auto;
+    font-size: 26px;
+    font-weight: 550;
+    color: lightblue;
+    text-shadow: 2px 2px dodgerblue;
 }
 
-h2{
-    text-align: center;
+#header #top-header{
+    text-align: left;
+    padding-top: 25px;
+    padding-left: 25px;
+}
+
+#header #bottom-header{
+    text-align: right;
+    padding-top: 200px;
+    padding-right: 25px;
 }
 
 #content h3{
