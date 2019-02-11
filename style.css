@@ -6,7 +6,7 @@ body{
 
 #header{
     max-width: 640px;
-    background-image: url(img/BlueButterfly640.jpg);
+    background-image: url(BlueButterfly640.jpg);
     background-repeat: no-repeat;
     min-height: 360px;
     margin: 10px auto;
