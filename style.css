@@ -2,6 +2,7 @@ body{
     font-family: 'Arial', sans-serif;
     background-color: #e6f2ff;
     background: linear-gradient(90deg, #e6f2ff, #b3d9ff);
+    justify-content: center;
 }
 
 #header{
