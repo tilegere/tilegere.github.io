@@ -17,18 +17,6 @@ body{
     text-shadow: 2px 2px dodgerblue;
 }
 
-#header #top-header{
-    text-align: left;
-    padding-top: 25px;
-    padding-left: 25px;
-}
-
-#header #bottom-header{
-    text-align: right;
-    padding-top: 200px;
-    padding-right: 25px;
-}
-
 #content h3{
     text-align: center;
     margin: 10px 20px;
