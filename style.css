@@ -2,19 +2,20 @@ body{
     font-family: 'Arial', sans-serif;
     background-color: #e6f2ff;
     background: linear-gradient(90deg, #e6f2ff, #b3d9ff);
-    justify-content: center;
+    margin: 0;
 }
 
-#header{
-    max-width: 640px;
-    background-image: url(BlueBlur.jpg);
-    background-repeat: no-repeat;
-    min-height: 360px;
-    margin: 10px auto;
+header{
+    height: 300px;
+    background-image: url(img/BlueBlur.jpg);
+    background-size: cover;
     font-size: 26px;
     font-weight: 550;
     color: lightblue;
     text-shadow: 2px 2px dodgerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .profile-image {
@@ -36,4 +37,12 @@ body{
     width: 75%;
     justify-content: space-around;
     list-style-type: none;
+}
+
+.profile-text{
+    height: 100px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
