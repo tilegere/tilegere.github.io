@@ -1,7 +1,6 @@
 body{
     font-family: 'Arial', sans-serif;
-    background-color: #e6f2ff;
-    background: linear-gradient(90deg, #e6f2ff, #b3d9ff);
+    background-color: #bddafa;
     margin: 0;
 }
 
@@ -25,9 +24,24 @@ header{
     border-radius: 50%;
 }
 
-#content h3{
+#projects h3{
     text-align: center;
     margin: 10px 20px;
+}
+
+#projects, #intro, #skills {
+    margin: 40px;
+    display: flex;
+}
+
+#projects {
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#intro, #skills {
+    display: flex;
+    flex-direction: column;
 }
 
 #menu {
@@ -45,4 +59,22 @@ header{
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+}
+
+.article {
+    background-color: #d4e9ff;
+    border-radius: 5px;
+    box-shadow: 5px 8px 12px grey;
+    padding: 12px;
+    width: 30%;
+    margin-top: 20px;
+}
+
+.article:hover {
+    box-shadow: 5px 8px 12px grey inset;
+    cursor: pointer;
+}
+
+p {
+    margin: 0;
 }
